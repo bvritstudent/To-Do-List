@@ -122,3 +122,34 @@ ul li.checked::before {
 .deleteButton:hover{
   background: #e03e2d;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 5px;
+    height: auto;
+  }
+  .ToDoContainer {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 10px 40px;
+    margin: 40px auto 10px;
+  }
+  .header h2 {
+    font-size: 22px;
+  }
+  .inputContainer input {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .inputContainer button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  ul li {
+    font-size: 15px;
+    padding: 10px 8px 10px 40px;
+  }
+  .ToDoContainer img {
+    width: 28px;
+  }
+}
